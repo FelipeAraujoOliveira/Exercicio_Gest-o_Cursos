@@ -1,31 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
 .cropped1 {
-    width: 50px; /* width of container */
-    height: 800px; /* height of container */
+    width: 50px;
+    height: 550px;
     object-fit: cover;
     border-radius: 5vh;
     padding: 10px;
 }
-.containerTexto{
+
+.container_texto {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
-    
-  }
+}
 
 .title {
-    font-size: 60px;
+    font-size: 35px;
 }
+
 h1 {
     position: absolute;
     color: aliceblue;
     display: inline-block;
     top: 80%;
 }
+
 .cropped2 {
-    width: 100px; /* width of container */
-    height: 600px; /* height of container */
+    width: 100px;
+    height: 600px;
     object-fit: cover;
-    object-position: 20px 10px; /* try 20% 10% */ 
+    object-position: 20px 10px;
     border: 5px solid black;
+}
+
+
+
+.container_curso {
+    margin-bottom: 50px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.titulo_curso {
+    color: #333;
+}
+
+.descricao {
+    color: #666;
+}
+
+.banner_container {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.banner_img {
+    width: 100%;
+    border-radius: 10px;
 }
