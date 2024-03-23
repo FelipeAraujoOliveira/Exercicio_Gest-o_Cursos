@@ -17,7 +17,8 @@
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">UNIMAR</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -27,6 +28,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="cadastrar.html">Cadastro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="informacoes.html">Cursos</a>
           </li>
         </ul>
       </div>
@@ -57,69 +61,73 @@
   <!--Fim modal-->
   <div style="margin-top: 1%;" class="container text-center">
     <h1>Cadastro de Curso</h1>
-</div>
+  </div>
 
-<div style="width: 100vh; margin-top: 1%;" class="container">
+  <div style="width: 100vh; margin-top: 1%;" class="container">
 
     <form>
-        <div class="row">
-            <div class="col">
-                <div class="mb-3">
-                    <label class="form-label">Nome do Curso</label>
-                    <input value="Curso" class="form-control">
-                </div>
-            </div>
-            <div class="col">
-                <div class="mb-3">
-                    <label class="form-label">Nome do Cordenador</label>
-                    <input value="Nome Sobrenome" class="form-control">
-                </div>
-            </div>
+      <div class="row">
+        <div class="col">
+          <div class="mb-3">
+            <label class="form-label">Nome do Curso</label>
+            <input value="Curso" class="form-control">
+          </div>
         </div>
+        <div class="col">
+          <div class="mb-3">
+            <label class="form-label">Nome do Cordenador</label>
+            <input value="Nome Sobrenome" class="form-control">
+          </div>
+        </div>
+      </div>
 
-        <div class="row">
-            <div class="col">
-                <div class="mb-3">
-                    <label class="form-label">Área do Curso</label>
-                    <input value="Área" class="form-control">
-                </div>
-            </div>
-            <div class="col">
-                <div class="mb-3">
-                    <label class="form-label">Nível do Curso</label>
-                    <input value="Superior / Técnico " class="form-control">
-                </div>
-            </div>
+      <div class="row">
+        <div class="col">
+          <div class="mb-3">
+            <label class="form-label">Área do Curso</label>
+            <input value="Área" class="form-control">
+          </div>
         </div>
+        <div class="col">
+          <div class="mb-3">
+            <label class="form-label">Nível do Curso</label>
+            <input value="Superior / Técnico " class="form-control">
+          </div>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col">
+          <div class="mb-3">
+            <label class="form-label">Tempo de Conclusão</label>
+            <input value="X anos" class="form-control">
+          </div>
+        </div>
+        <div class="col">
+          <div class="mb-3">
+            <label class="form-label">Mensalidade</label>
+            <input value="XXX.XX R$" class="form-control">
+          </div>
+        </div>
+      </div>
+      <div style="width: 50vh; margin-top: 1%;" class="container">
         <div class="row">
-            <div class="col">
-                <div class="mb-3">
-                    <label class="form-label">Tempo de Conclusão</label>
-                    <input value="X anos" class="form-control">
-                </div>
-            </div>
-            <div class="col">
-                <div class="mb-3">
-                    <label class="form-label">Mensalidade</label>
-                    <input value="XXX.XX R$" class="form-control">
-                </div>
-            </div>
+          <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modalCadastro"
+            style="margin-top: 2vh;">Cadastrar
+          </button>
+          <div class="col">
+          </div>
+          </td>
         </div>
-        <div class="row"><button class="btn btn-primary" type="button" data-bs-toggle="modal"
-                data-bs-target="#modalCadastro" style="margin-top: 2vh;">Cadastrar</button>
-            <div class="col">
+      </div>
 
-            </div>
-            </td>
-        </div>
     </form>
-</div>
+  </div>
 
 </body>
 <script>
   function voltar() {
-      window.location.href = 'cursos.html'
+    window.location.href = 'cursos.html'
   }
 </script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

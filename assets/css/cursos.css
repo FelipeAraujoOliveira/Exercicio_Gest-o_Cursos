@@ -1,0 +1,31 @@
+.cropped1 {
+    width: 50px; /* width of container */
+    height: 800px; /* height of container */
+    object-fit: cover;
+    border-radius: 5vh;
+    padding: 10px;
+}
+.containerTexto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+  }
+
+.title {
+    font-size: 60px;
+}
+h1 {
+    position: absolute;
+    color: aliceblue;
+    display: inline-block;
+    top: 80%;
+}
+.cropped2 {
+    width: 100px; /* width of container */
+    height: 600px; /* height of container */
+    object-fit: cover;
+    object-position: 20px 10px; /* try 20% 10% */ 
+    border: 5px solid black;
+}
